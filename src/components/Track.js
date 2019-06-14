@@ -21,7 +21,7 @@ class Track extends Component {
   render () {
     return (
       <li className="track">
-        <img className="track--albumart" alt={`album art for ${this.props.title}`} src={this.albumart} />
+        <img className="track--albumart" alt={`album art for ${this.props.title}`} src={this.props.albumart} />
         <h3 className="track--title">{this.props.title}</h3>
         <input
           type="checkbox"
